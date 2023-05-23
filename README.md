@@ -4,6 +4,15 @@ Unofficial API for Spotify For Artists built by reverse engineering their endpoi
 
 I also built a custom VueJS Frontend trying to replicate the look of the original but adding some extra features that the API contains but original Frontend is not showing.
 
+## Frontend
+
+![Selection_882](https://github.com/voidm4p/spotifyfoartistsplus/assets/33087100/c4d015ae-f260-43f6-851b-ff5c47239077)
+
+![Selection_881](https://github.com/voidm4p/spotifyfoartistsplus/assets/33087100/6b99b5c4-213c-4f99-8a50-3b4f7b4a2c53)
+
+![Selection_880](https://github.com/voidm4p/spotifyfoartistsplus/assets/33087100/2c9ba3f3-7127-456b-ad50-5a3686e59289)
+
+
 ## API
 
 ### Endpoint: https://generic.wg.spotify.com
