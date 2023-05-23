@@ -40,7 +40,7 @@ I also built a custom VueJS Frontend trying to replicate the look of the origina
 "artists/{}".format(artist_id)
 "tracks/{}".format(song_id)
 "artists/{}/related-artists".format(artist_id)
-``
+```
 
 ### Endpoint: https://api-partner.spotify.com
 
