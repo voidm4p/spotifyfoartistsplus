@@ -1,0 +1,78 @@
+@import 'theme-colors';
+
+/*
+* === BODY, APP BACKGROUND ETC. ===
+*/
+html, body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1040px;
+}
+
+.app-background {
+  background-color: var(--app-background-color);
+}
+
+.dynamic-title {
+  color: var(--dynamic-title-color);
+}
+
+.dynamic-subtitle {
+  color: var(--dynamic-subtitle-color);
+  padding-top: 10px;
+}
+
+/*
+* === THEME SWITCH ===
+*/
+input.theme-switch {
+  display: none;
+}
+
+input.theme-switch + label {
+  cursor: pointer;
+}
+
+input.theme-switch:not(:checked) + label:hover {
+  cursor: pointer;
+}
+
+input.theme-switch + label:active,
+input.theme-switch:checked + label {
+  cursor: pointer;
+}
+
+.thumbnail {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.thumbnail.is-rounded{
+  border-radius: 50%;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Naz4ri
+.navbar .navbar-brand svg path {
+  fill: white;
+}
